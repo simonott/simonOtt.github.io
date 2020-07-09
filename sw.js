@@ -36,6 +36,7 @@ const getFixedUrl = (req) => {
   return url.href
 }
 
+
 // The Util Function to detect and polyfill req.mode="navigate"
 // request.mode of 'navigate' is unfortunately not supported in Chrome
 // versions older than 49, so we need to include a less precise fallback,
